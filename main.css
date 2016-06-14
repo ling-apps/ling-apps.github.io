@@ -1,0 +1,141 @@
+body{
+	background-color: #fff;
+	font-family: Source Sans Pro, Arial; /*Courier new; /*Arial*/
+	font-size: 18px;
+	color: #636363;
+	line-height: 24px;
+	margin: 0;
+	display:flex;
+	flex-direction: column;
+}
+
+h1{
+	font-size: 44px;
+}
+
+img{
+	height: 250px;
+}
+
+a{
+	color:#b96ab9;
+}
+
+.header{
+	margin: 40px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.header h1{
+	color: #b96ab9;
+	margin: 0 0 40px 0;
+}
+
+.header p{
+	margin: 0;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+	background-color: #e4e4e4;
+}
+
+.developer{
+	align-self: stretch;
+  flex: 1 1 50%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.developer:first-child .quote{
+	padding: 20px 0 20px 20px;
+}
+
+.developer:last-child{
+	border-left: 2px solid #d7d7d7;
+}
+
+.developer:last-child .quote{
+	padding: 20px 20px 20px 0;
+}
+
+.developer h3{
+	margin: 0 0 10px 0;
+	font-size: 20px;
+	color: #b96ab9;
+}
+
+.quote{
+	font-style: italic;
+	font-stretch: expanded;
+	font-size: 24px;
+	line-height: 28px;
+	padding: 20px;
+	color: #b96ab9;
+}
+
+.btn-contact{
+	flex: 0 1 auto;
+	align-self: flex-end;
+	font-size: 22px;
+	font-stretch: expanded;
+	text-decoration: none;
+	padding: 5px 20px;
+	border:none;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+	background-color: #f6f6f6;
+	color: #636363;
+	cursor: pointer;
+}
+
+.btn-contact:hover{
+	background-color: white;
+}
+
+.developer-footer{
+	justify-content: center;
+	flex: 1 1 auto;
+	display: flex;
+}
+
+.footer{
+	text-align: center;
+	padding: 20px;
+}
+
+.highlight{
+	display: inline-flex;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.disabled-link {
+	cursor: not-allowed;
+}
+
+/* Small screen */
+@media only screen and (max-width: 480px) {
+	.content{
+		flex-direction: column;
+	}
+
+	.developer:last-child{
+		border-top: 2px solid #e4e4e4;
+	}
+}
+
+/* medium screen*/
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+	.content{
+		flex-direction: column;
+	}
+
+	.developer:last-child{
+		border-top: 2px solid #e4e4e4;
+	}
+ }
