@@ -118,24 +118,21 @@ a{
 	cursor: not-allowed;
 }
 
-/* Small screen */
-@media only screen and (max-width: 480px) {
-	.content{
-		flex-direction: column;
-	}
-
-	.developer:last-child{
-		border-top: 2px solid #e4e4e4;
-	}
+.hidden{
+	display: none;
 }
 
-/* medium screen*/
-@media only screen and (min-width: 481px) and (max-width: 960px) {
+/* Small screen */
+@media only screen and (max-width: 960px) {
 	.content{
 		flex-direction: column;
 	}
 
-	.developer:last-child{
-		border-top: 2px solid #e4e4e4;
+	.developer{
+		flex: 1 1 auto;
 	}
- }
+
+	.developer:last-child{
+		border-top: 2px solid #d7d7d7;
+	}
+}
