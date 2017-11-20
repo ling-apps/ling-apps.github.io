@@ -1,0 +1,59 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <mat-toolbar>
+    <h1>{{title}}</h1>
+  </mat-toolbar>
+</div>
+<mat-sidenav-container>
+
+  <mat-sidenav #sidenav class="sidenav" mode="side" opened="true" position="end">
+    Download CV
+  </mat-sidenav>
+  <div class="content mat-app-background">
+    <div class="content-wrapper">
+      <img width="150" src="./assets/blandine-rounded.png" alt="Blandine picture" class="float-left" />
+      <p>
+        Hi, I'm
+        <span class="highlight">Blandine Descamps</span>, a senior front-end developer passionate about creating great user experiences! I'm available
+        for
+        <span class="highlight">front-end development</span>,
+        <span class="highlight">consulting</span>,
+        <span class="highlight">code review</span> and
+        <span class="highlight">mentoring</span>.
+        <br />
+        <br /> I work
+        <span class="highlight">remotely</span> from France but I am very open for occasional travelling.
+        <br />
+        <br /> I'm skilled in
+        <b>javascript</b> and I've previously worked with
+        <b>React.js/Redux</b> and
+        <b>Angular</b>. I know
+        <b>HTML5</b> and
+        <b>CSS3</b>.
+        <br/> I do write
+        <b>tests</b> :)
+        <br/>
+        <br/> I like to keep myself at the edge of the front-end technologies. Those days, I play with
+        <b>Progressive Web Apps</b> and offline mode.
+        <br/>I'm also interested in tools to improve the user feedback like
+        <b>AB testing</b>.
+        <br/>
+        <br/> I'm fluent in
+        <b>English</b> and
+        <b>French</b>.
+        <br/>
+      </p>
+    </div>
+    <div>
+      <app-link-component link="https://www.github.com/blandine" icon="./assets/GitHub-Mark/PNG/GitHub-Mark-64px.png"></app-link-component>
+      <app-link-component link="http://se.linkedin.com/in/blandinedescamps" icon="./assets/in66.png"></app-link-component>
+    </div>
+    <div class="footer"> Developed with
+      <a href="https://angular.io/">Angular 5</a> and
+      <a href="https://material.angular.io">Angular Material 2</a>
+      <br/> Code available on
+      <a href="https://github.com/ling-apps/ling-apps.github.io">Github/ling-apps</a>
+    </div>
+  </div>
+
+</mat-sidenav-container>

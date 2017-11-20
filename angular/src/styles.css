@@ -1,0 +1,27 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+body {
+    font-family: Source Sans Pro, Arial;
+    color: #555;
+    background-color: #fafafa;
+    margin: 0;
+}
+
+body:after {
+    content: "Angular";
+    position: fixed;
+    width: 100px;
+    height: 25px;
+    background: #EE8E4A;
+    top: 13px;
+    right: -24px;
+    text-align: center;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    line-height: 27px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
