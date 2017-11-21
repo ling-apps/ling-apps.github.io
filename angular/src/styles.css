@@ -1,9 +1,10 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 body {
     font-family: Source Sans Pro, Arial;
-    color: #555;
+    color: rgba(0, 0, 0, 0.87);
     background-color: #fafafa;
     margin: 0;
+    line-height: 24px;
 }
 
 body:after {
@@ -11,7 +12,7 @@ body:after {
     position: fixed;
     width: 100px;
     height: 25px;
-    background: #EE8E4A;
+    background: #e66306;
     top: 13px;
     right: -24px;
     text-align: center;
@@ -24,4 +25,29 @@ body:after {
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+
+a {
+    text-decoration: none;
+    color: #e66306;
+    font-weight: 600;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.material-icons {
+    color: rgba(0, 0, 0, 0.87);
+    vertical-align: middle;
+}
+
+p {
+    margin-top: 0;
+}
+
+b,
+.highlight {
+    color: #e66306;
+    font-weight: normal;
 }
